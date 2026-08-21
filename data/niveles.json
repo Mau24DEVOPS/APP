@@ -1,0 +1,145 @@
+{
+  "n1": {
+    "id": "n1",
+    "orden": 1,
+    "nombre": "Starter",
+    "min": 1,
+    "max": 9,
+    "color": "#3730a3",
+    "cls": "lvl-1",
+    "desc": "Gestión a cargo del dueño, sin área RRHH formal, contador externo, procesos informales.",
+    "rangoPreg": "~20",
+    "tiempoMin": 6,
+    "objetivo": "Detectar incumplimientos críticos que podrían generar multas inmediatas, sin abrumar al dueño con preguntas que no le aplican.",
+    "modulosActivos": [
+      "mod2",
+      "mod3",
+      "mod4",
+      "mod5",
+      "mod7"
+    ],
+    "modulosOcultos": [
+      "mod6"
+    ]
+  },
+  "n2": {
+    "id": "n2",
+    "orden": 2,
+    "nombre": "Microempresa",
+    "min": 10,
+    "max": 19,
+    "color": "#1e40af",
+    "cls": "lvl-2",
+    "desc": "Procesos básicos de RRHH, control documental inicial, primeras obligaciones de prevención.",
+    "rangoPreg": "~40",
+    "tiempoMin": 10,
+    "objetivo": "Verificar procesos básicos de RRHH y control documental, sumando Ley Karin y capacitación mínima.",
+    "modulosActivos": [
+      "mod2",
+      "mod3",
+      "mod4",
+      "mod5",
+      "mod6",
+      "mod7"
+    ],
+    "modulosOcultos": []
+  },
+  "n3": {
+    "id": "n3",
+    "orden": 3,
+    "nombre": "Pequeña empresa",
+    "min": 20,
+    "max": 49,
+    "color": "#0f766e",
+    "cls": "lvl-3",
+    "desc": "Procesos formales de RRHH, reclutamiento e inducción estructurados, controles preventivos.",
+    "rangoPreg": "~50",
+    "tiempoMin": 13,
+    "objetivo": "Evaluar procesos formales de RRHH, contratación, remuneraciones y prevención de riesgos con controles preventivos.",
+    "modulosActivos": [
+      "mod2",
+      "mod3",
+      "mod4",
+      "mod5",
+      "mod6",
+      "mod7",
+      "mod12"
+    ],
+    "modulosOcultos": []
+  },
+  "n4": {
+    "id": "n4",
+    "orden": 4,
+    "nombre": "PyME",
+    "min": 50,
+    "max": 199,
+    "color": "#1a4fa0",
+    "cls": "lvl-4",
+    "desc": "Gestión de personas estructurada, compliance laboral, indicadores de gestión.",
+    "rangoPreg": "~60",
+    "tiempoMin": 15,
+    "objetivo": "Evaluar integralmente gestión de personas, compliance laboral, prevención, Ley Karin, capacitación, desempeño, subcontratación y jornadas excepcionales.",
+    "modulosActivos": [
+      "mod2",
+      "mod3",
+      "mod4",
+      "mod5",
+      "mod6",
+      "mod7",
+      "mod12"
+    ],
+    "modulosOcultos": []
+  },
+  "n5": {
+    "id": "n5",
+    "orden": 5,
+    "nombre": "Mediana empresa",
+    "min": 200,
+    "max": 499,
+    "color": "#92400e",
+    "cls": "lvl-5",
+    "desc": "Gobierno corporativo laboral, auditorías internas, matrices de riesgo, compliance avanzado.",
+    "rangoPreg": "~70",
+    "tiempoMin": 18,
+    "objetivo": "Exigir evidencia documental en gobierno corporativo laboral, auditoría interna, matrices de riesgo, KPIs y control de contratistas.",
+    "modulosActivos": [
+      "mod2",
+      "mod3",
+      "mod4",
+      "mod5",
+      "mod6",
+      "mod7",
+      "mod8",
+      "mod9",
+      "mod12"
+    ],
+    "modulosOcultos": []
+  },
+  "n6": {
+    "id": "n6",
+    "orden": 6,
+    "nombre": "Gran empresa",
+    "min": 500,
+    "max": null,
+    "color": "#991b1b",
+    "cls": "lvl-6",
+    "desc": "Cumplimiento integral: gobierno corporativo, ESG laboral, gestión sindical, continuidad operacional.",
+    "rangoPreg": "~80",
+    "tiempoMin": 22,
+    "objetivo": "Exigir evidencia verificable en cumplimiento laboral, compliance, gobierno corporativo, ESG, gestión sindical y continuidad operacional.",
+    "modulosActivos": [
+      "mod2",
+      "mod3",
+      "mod4",
+      "mod5",
+      "mod6",
+      "mod7",
+      "mod8",
+      "mod9",
+      "mod10",
+      "mod11",
+      "mod12"
+    ],
+    "modulosOcultos": []
+  }
+}
